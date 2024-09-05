@@ -14,7 +14,7 @@ import homeRouter from './router/home.router.js'
 env.config();
 
 const corsAllow = {
-    origin: 'https://harmonious-churros-344c44.netlify.app',
+    origin: 'http://localhost:5173, https://harmonious-churros-344c44.netlify.app',
     method: 'POST, GET, PUT, PATCH, HEAD',
     credential: true
 }
