@@ -14,7 +14,7 @@ import homeRouter from './router/home.router.js'
 env.config();
 
 const corsAllow = {
-    origin: 'https://aryandevs-webblog.netlify.app/',
+    origin: 'https://aryandevs-webblog.netlify.app',
     method: 'POST, GET, PUT, PATCH, HEAD',
     credential: true
 }
